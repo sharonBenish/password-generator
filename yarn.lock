@@ -276,13 +276,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cmss/check-password-strength@npm:^2.1.6":
-  version: 2.1.6
-  resolution: "@cmss/check-password-strength@npm:2.1.6"
-  checksum: 69cb77ef7b0111f3a28794d8cfdc85b1070739271589a89411e9b444f72ce6086955c01069e8b271247f36bbbac6d113b6c97ff788458e392181699ac6320506
-  languageName: node
-  linkType: hard
-
 "@esbuild/aix-ppc64@npm:0.19.12":
   version: 0.19.12
   resolution: "@esbuild/aix-ppc64@npm:0.19.12"
@@ -1128,6 +1121,13 @@ __metadata:
     ansi-styles: ^4.1.0
     supports-color: ^7.1.0
   checksum: fe75c9d5c76a7a98d45495b91b2172fa3b7a09e0cc9370e5c8feb1c567b85c4288e2b3fded7cfdd7359ac28d6b3844feb8b82b8686842e93d23c827c417e83fc
+  languageName: node
+  linkType: hard
+
+"check-password-strength@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "check-password-strength@npm:2.0.7"
+  checksum: 0d859f6e434a86efc66f4dbbeb28b8be7c0e929726b80f68d3148bd410984857b411e4f980ba25a629a6f581de9bff3e1ad2d280af45c28f619a7457c65af1ba
   languageName: node
   linkType: hard
 
@@ -2889,11 +2889,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "pass-gen-app@workspace:."
   dependencies:
-    "@cmss/check-password-strength": ^2.1.6
     "@heroicons/react": ^2.1.1
     "@types/react": ^18.2.55
     "@types/react-dom": ^18.2.19
     "@vitejs/plugin-react": ^4.2.1
+    check-password-strength: ^2.0.7
     eslint: ^8.56.0
     eslint-plugin-react: ^7.33.2
     eslint-plugin-react-hooks: ^4.6.0

@@ -7,6 +7,7 @@ import { PasswordContext } from "../App";
 import { generatePassword, showNotification } from "../utils/generatePassword";
 import { passwordStrength } from 'check-password-strength'
 
+// const { passwordStrength } = require('check-password-strength')
 
 function Settings(){
     const {state, setState } = useContext(PasswordContext);
