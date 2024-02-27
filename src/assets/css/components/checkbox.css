@@ -1,0 +1,35 @@
+input[type="checkbox"] {
+            display: none;
+        }
+
+        /* Style for the custom checkbox container */
+        .custom-checkbox {
+            display: inline-block;
+            position: relative;
+            padding-left: 13px; /* Adjust as needed */
+            cursor: pointer;
+        }
+
+        /* Style for the custom checkbox */
+        .custom-checkbox input:checked + .checkmark {
+            background-color: var(--neon-green); /* Color when checkbox is checked */
+            border-color: var(--neon-green); /* Border color when checkbox is checked */
+        }
+
+        /* Style for the checkmark inside the custom checkbox */
+        .checkmark {
+            position: absolute;
+            display:flex;
+            align-items: center;
+            justify-items: center;
+            top: 0;
+            left: 0;
+            height: 13px; /* Adjust as needed */
+            width: 13px; /* Adjust as needed */
+            border: 2px solid #fff;
+            background-color: var(--very-dark-grey);
+        }
+
+        .checkmark:hover{
+            border-color:var(--neon-green)
+        }

@@ -1,0 +1,35 @@
+.strength{
+    background-color: var(--very-dark-grey);
+    margin: 2rem 0;
+    color: var(--color-grey)
+}
+.bars{
+    gap:0.4rem;
+    margin-left:0.8rem;
+}
+.bar{
+    width:0.5rem;
+    height:1.8rem;
+    border:1.3px solid #fff;
+}
+.too_weak{
+    background-color: #F64A4A;
+    border:1.3px solid #F64A4A;
+}
+.weak{
+    background-color: #FB7C58;
+    border:1.3px solid #FB7C58;
+}
+.medium{
+    background-color: #F8CD65;
+    border:1.3px solid #F8CD65;
+}
+.strong{
+    background-color: #A4FFAF;
+    border:1.3px solid #A4FFAF;
+}
+p.strength_text{
+    font-size: 1.1rem;
+    color:#fff;
+    font-weight: 700;
+}

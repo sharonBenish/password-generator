@@ -1,0 +1,29 @@
+.settings{
+    .heading{
+        font-size: 0.825rem;
+    }
+    p{
+        font-size: 0.825rem;
+    }
+    .char_Length{
+        font-size: 1.3rem;
+        color: var(--neon-green)
+    }
+    .options{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+    }
+    .option{
+        display: flex;
+        gap:1rem;
+    }
+}
+
+@media (min-width:1000px) {
+    .settings{
+        .heading{
+            font-size: 1rem;
+        }
+    }
+}
